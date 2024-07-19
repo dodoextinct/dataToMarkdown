@@ -1,13 +1,9 @@
-# y
-
-> Made with create-react-library
-
-[![NPM](https://img.shields.io/npm/v/y.svg)](https://www.npmjs.com/package/y) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+# dataToMarkdown
 
 ## Install
 
 ```bash
-npm install --save y
+npm install --save datatomarkdown
 ```
 
 ## Usage
@@ -15,16 +11,15 @@ npm install --save y
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'y'
-import 'y/dist/index.css'
+import DataToMarkdown from 'datatomarkdown'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <DataToMarkdown />
   }
 }
 ```
 
 ## License
 
-y © [dodoextinct](https://github.com/dodoextinct)
+MIT © [dodoextinct](https://github.com/dodoextinct)
